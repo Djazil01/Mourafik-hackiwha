@@ -1,0 +1,67 @@
+@font-face {
+  font-family: sfPro;
+  src: url(./assets/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sfPro;
+  src: url(./assets/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: sfPro;
+  src: url(./assets/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF);
+  font-weight: normal;
+  font-style: normal;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: sfPro;
+  
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 768px){
+  .container{
+      width:750px;
+  }
+}
+@media(min-width:992px){
+  .container{
+      width: 970px;
+  }
+}
+@media(min-width:1200px){
+  .container{
+      width: 1170px;
+  }
+}
+
+.btn-primary{
+  background-color: rgba(0, 111, 255, 100%);
+  transition: background-color 0.7s;
+}
+.btn-primary:hover{
+  background-color: rgb(0 95 255);
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hackiwha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server":"cd ./backend && npm run server:dev",
+    "front": "cd ./frontend && npm run front:dev",
+    "start": "concurrently \"npm run server\" \"npm run front\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
